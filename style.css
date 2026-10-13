@@ -13,8 +13,8 @@ header{
     width: 100%;
     padding: 30px;
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
+    
+    
 }
 nav{
     --height: 20%;
@@ -43,10 +43,15 @@ footer{
 
 }
 div{
-    flex-direction: column;
+    --flex-direction: column;
 }
-div.Bildtext{
+--div.Bildtext{
     height: 10%;
     width: 10%;
-    
+}
+div.navlinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    align-items: center;
 }
