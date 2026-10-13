@@ -9,26 +9,22 @@ body{
     flex-direction: column;
 }
 header{
-    height: 100%;
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    
-    
+    --height: 10%;
+    --width: 100%;
 }
 nav{
-    --height: 20%;
-    --width: 100%;
-    --display: flex;
-    --flex-direction: row;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 nav a{
-    --text-decoration: none;
-    --margin-left: 10%;
-    --margin-right:20%;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 nav a:hover{
-    --text-decoration: underline #1d1770;
+    text-decoration: underline #1d1770;
 }
 main{
     height: 70%;
