@@ -1,20 +1,20 @@
 *{
     padding: 0;
     margin: 0;
-    --color:contrast;
 }
 body{
+    background-color: var(--bg);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 header{
-    background-color: #274a96;
+    background-color: var(--primary);
 
 }
 nav{
     text-decoration: none;
-    color: #611c1c;
+    color: var(--primary-contrast);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,19 +28,34 @@ nav{
     text-decoration: none;
     padding : 10px;
 }
+nav a:hover{
+    color: var(--primary-hover);
+}
 .nav-links {
     padding: 30px;
     display: flex;
     gap: 30px;
 }
 .nav-links a {
-    text-decoration: none;
+ text-decoration:none;
 }
 .nav-links a:hover {
-    color: #881a1a;
+    color: var(--primary-hover);
 }
 main{
     flex: 1;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 footer{
     padding: 10px;
