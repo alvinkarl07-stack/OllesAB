@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     background-color: var(--bg);
     min-height: 100vh;
@@ -14,6 +15,7 @@ header{
 }
 nav{
     text-decoration: none;
+    background-color: var(--primary-contrast);
     color: var(--primary-contrast);
     display: flex;
     flex-direction: row;
@@ -27,6 +29,9 @@ nav{
     align-items: center;
     text-decoration: none;
     padding : 10px;
+    img{
+        filter: invert(1);
+    }
 }
 nav a:hover{
     color: var(--primary-hover);
@@ -46,19 +51,28 @@ main{
     flex: 1;
 }
 section{
+    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
 }
 article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
 }
 footer{
+    background-color: var(--primary);
+    width: 100%;
     padding: 10px;
     margin-left:auto;
     margin-right:auto;
+    img{
+        filter: invert(1);
+    }
 }
+
