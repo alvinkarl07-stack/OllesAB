@@ -85,7 +85,11 @@ article{
 }
 
 details{
-    background-color: 
+    color: oklch(95.27% 0.0027 286.35);
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+
 
 }
 footer{
